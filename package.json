@@ -8,6 +8,8 @@
     "react-markdown": "^3.3.0"
   },
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start -p $PORT"
   }
 }
